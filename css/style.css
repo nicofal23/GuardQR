@@ -135,60 +135,6 @@ header {
     width: 25rem;
     height: 25rem; }
 
-@media (max-width: 768px) {
-  .sectionclass {
-    grid-template-columns: 400px;
-    grid-template-rows: 2;
-    justify-items: center; }
-    .sectionclass .parrafo1 {
-      grid-column: 400px;
-      grid-row: 1;
-      width: 400px; }
-    .sectionclass .parrafo2 {
-      grid-column: 400px;
-      grid-row: 2;
-      width: 400px; }
-  .titulo img {
-    width: 18.75rem; }
-  .titulo {
-    justify-content: center; }
-  .sectionquiensomos {
-    margin-top: .625rem;
-    width: 80%;
-    margin-left: 6.25rem;
-    margin-bottom: .625rem; }
-  .h2-instruc {
-    margin-left: 0px;
-    margin-right: 0px; }
-  .video iframe {
-    width: 15.625rem;
-    height: 15.625rem;
-    margin: .625rem; } }
-
-@media (max-width: 600px) {
-  .sectionquiensomos {
-    font-size: 1rem;
-    margin-left: 3.125rem;
-    margin-bottom: 0px;
-    margin-top: .625rem; } }
-
-@media (max-width: 425px) {
-  header .titulo {
-    justify-content: start; }
-  .sectionclass {
-    justify-items: center; }
-    .sectionclass .parrafo1 {
-      width: 300px; }
-    .sectionclass .parrafo2 {
-      width: 300px; }
-  .sectionquiensomos {
-    font-size: 1rem;
-    margin-left: 3.125rem;
-    margin-bottom: 0px;
-    margin-top: .625rem; }
-  .titulo img {
-    width: 15.625rem; } }
-
 .inicio {
   background-color: black; }
   .inicio img {
@@ -262,3 +208,64 @@ button {
 .ingreso-button a {
   color: black;
   text-decoration: none; }
+
+.titulosh {
+  background-color: rgba(0, 0, 0, 0.507);
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+
+@media (max-width: 768px) {
+  .sectionclass {
+    grid-template-columns: 400px;
+    grid-template-rows: 2;
+    justify-items: center; }
+    .sectionclass .parrafo1 {
+      grid-column: 400px;
+      grid-row: 1;
+      width: 400px; }
+    .sectionclass .parrafo2 {
+      grid-column: 400px;
+      grid-row: 2;
+      width: 400px; }
+  .titulo img {
+    width: 18.75rem; }
+  .titulo {
+    justify-content: center; }
+  .sectionquiensomos {
+    margin-top: .625rem;
+    width: 80%;
+    margin-left: 6.25rem;
+    margin-bottom: .625rem; }
+  .h2-instruc {
+    margin-left: 0px;
+    margin-right: 0px; }
+  .video iframe {
+    width: 15.625rem;
+    height: 15.625rem;
+    margin: .625rem; } }
+
+@media (max-width: 600px) {
+  .sectionquiensomos {
+    font-size: 1rem;
+    margin-left: 3.125rem;
+    margin-bottom: 0px;
+    margin-top: .625rem; } }
+
+@media (max-width: 425px) {
+  header .titulo {
+    justify-content: start; }
+  .sectionclass {
+    justify-items: center; }
+    .sectionclass .parrafo1 {
+      width: 300px; }
+    .sectionclass .parrafo2 {
+      width: 300px; }
+  .sectionquiensomos {
+    font-size: 1rem;
+    margin-left: 3.125rem;
+    margin-bottom: 0px;
+    margin-top: .625rem; }
+  .titulo img {
+    width: 15.625rem; } }

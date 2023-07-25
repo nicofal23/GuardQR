@@ -1,6 +1,6 @@
 .parrafo1 {
     font-size: .9375rem;
-    background-color: rgba(0, 0, 0, 0.507);
+    background-color: $colornegroopacido;
     width: 21.875rem;
     height: 21.875rem;
     display: flex;
@@ -9,12 +9,12 @@
     text-align: center;
     /*parrafo de index*/ 
     p {
-        color: white;
+        color: $colorblancopuro;
         font-family: cuerpo; }
 }
 .parrafo2 {
     font-size: .9375rem;
-    background-color: rgba(0, 0, 0, 0.507);
+    background-color: $colornegroopacido;
     width: 21.875rem;
     height: 21.875rem;
     display: flex;
@@ -23,7 +23,7 @@
     text-align: center;
     /*parrafo de index*/ 
     p {
-        color: white;
+        color: $colorblancopuro;
         font-family: cuerpo; }
 }
 .sectionclass {

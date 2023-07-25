@@ -24,7 +24,7 @@ footer {
   display: flex;
   justify-content: center;
   bottom: 0px;
-  background-color: rgba(0, 0, 0, 0.171);
+  background-color: rgba(0, 0, 0, 0.418);
   /**icons redes sociales footer**/ }
   footer .divfooter img {
     width: 2.5rem; }
@@ -39,7 +39,7 @@ footer {
   bottom: 1.25rem; }
 
 header {
-  background-color: rgba(0, 0, 0, 0.171); }
+  background-color: rgba(0, 0, 0, 0.418); }
   header .titulo {
     display: flex;
     justify-content: center; }
@@ -61,7 +61,7 @@ header {
 
 .parrafo1 {
   font-size: .9375rem;
-  background-color: rgba(0, 0, 0, 0.507);
+  background-color: rgba(0, 0, 0, 0.418);
   width: 21.875rem;
   height: 21.875rem;
   display: flex;
@@ -75,7 +75,7 @@ header {
 
 .parrafo2 {
   font-size: .9375rem;
-  background-color: rgba(0, 0, 0, 0.507);
+  background-color: rgba(0, 0, 0, 0.418);
   width: 21.875rem;
   height: 21.875rem;
   display: flex;
@@ -105,7 +105,7 @@ header {
 
 .sectionquiensomos {
   font-size: 1.25rem;
-  background-color: rgba(0, 0, 0, 0.507);
+  background-color: rgba(0, 0, 0, 0.418);
   display: flex;
   justify-content: center;
   margin-top: 7.5rem;
@@ -120,7 +120,7 @@ header {
   display: fex;
   justify-content: center;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.507);
+  background-color: rgba(0, 0, 0, 0.418);
   color: #b0b7f0;
   margin-top: 1.875rem;
   margin-left: 18.75rem;
@@ -172,7 +172,7 @@ header {
     z-index: 1; }
   .ingreso button {
     background-color: black;
-    color: #ffffff;
+    color: white;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -181,7 +181,7 @@ header {
     margin-top: 250px; }
 
 .ingreso-button {
-  color: #ffffff;
+  color: white;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
@@ -208,11 +208,12 @@ header {
   text-decoration: none; }
 
 .titulosh {
-  background-color: rgba(0, 0, 0, 0.507);
+  background-color: rgba(0, 0, 0, 0.418);
   color: white;
   display: flex;
   align-items: center;
-  flex-direction: column; }
+  flex-direction: column;
+  margin: 30px; }
 
 @media (max-width: 768px) {
   .sectionclass {

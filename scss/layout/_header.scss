@@ -1,5 +1,5 @@
 header {
-    background-color: rgba(0, 0, 0, 0.171); 
+    background-color: $colornegroopacido; 
     .titulo {
         display: flex;
         justify-content: center; 
@@ -12,14 +12,14 @@ header {
         justify-content: center;
         font-family: titulos; 
         a {
-            color: white;
+            color: $colorblancopuro;
         }
     }
 .boton {
-    background: white;  
+    background: $colorblancopuro;  
 }    
 .navbar-toggler {
-    background: white;
+    background: $colorblancopuro;
 }
 
 

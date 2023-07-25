@@ -1,5 +1,5 @@
 .inicio {
-    background-color: black;
+    background-color: $colornegropuro;
     img {
         background-position: center;
         background-repeat: no-repeat;
@@ -34,13 +34,13 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        color: white;
+        color: $colorblancopuro;
         font-size: 36px;
         z-index: 1;
     }
     button {
-        background-color: black;
-        color: #ffffff;
+        background-color: $colornegropuro;
+        color: $colorblancopuro;
         border: none;
         border-radius: 5px;
         padding: 10px 20px;
@@ -52,7 +52,7 @@
 
 
 .ingreso-button {
-    color: #ffffff;
+    color: $colorblancopuro;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -82,6 +82,6 @@
 }
 
 .ingreso-button a {
-    color: black;
+    color: $colornegropuro;
     text-decoration: none;
 }

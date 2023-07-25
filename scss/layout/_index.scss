@@ -1,0 +1,90 @@
+$main-color: #080d13;
+$button-color: #007bff;
+
+
+.inicio {
+    background-color: black;
+    img {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        animation: fadeIn 3s ease;
+    }
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        filter: blur(20px);
+    }
+    10% {
+        opacity: 1;
+    }
+}
+.ingreso {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+    h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 36px;
+        z-index: 1;
+    }
+}
+button {
+    background-color: $main-color;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 250px;
+}
+.ingreso-button {
+    background-color: $button-color;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    animation: cambioFondo 1s infinite;
+}
+@keyframes cambioFondo {
+    0% {
+        background-color: #0414f3;
+    }
+    20% {
+        background-color: #2804f3;
+    }
+    40% {
+        background-color: #0444f3;
+    }
+    60% {
+        background-color: #0487f3;
+    }
+    80% {
+        background-color: #04aff3;
+    }
+    100% {
+        background-color: #04f3d3;
+    }
+}
+
+.ingreso-button a {
+    color: black;
+    text-decoration: none;
+}

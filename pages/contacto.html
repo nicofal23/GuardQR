@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuardQR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="contenedor">
+    <header>
+        <div class="titulo">
+            <img src="../assets/img/qrlogo.png" alt="logo">
+        </div>
+        <nav class="navbar navbar-expand-lg custom-navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand d-none d-lg-none d-md-none" href="#"><img src="./assets/img/nav.png"
+                        alt="" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation" style="background: white;">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="./inicio.html">INICIO</a>
+                        <a class="nav-link" href="./quienessomos.html">QUIENES SOMOS</a>
+                        <a class="nav-link" href="./instrucciones.html">INSTRUCCIONES</a>
+                        <a class="nav-link" href="./tarifas.html">TARIFAS</a>
+                        <a class="nav-link" href="./contacto.html">CONTACTO</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="d-flex flex-wrap justify-content-center gap-3 container-fluid" style="width: 100%;">
+            <div class="d-flex justify-content-center col-12 col-md-6" style="order: 1;width: auto;">
+                <form class=".form" style="width: 300px; ">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label font-weight text-white"
+                            style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Nombre</label>
+                        <input type="text" class="form-control form-control-sm" id="nombre" placeholder="Nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label font-weight text-white"
+                            style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Correo
+                            Electrónico</label>
+                        <input type="email" class="form-control" id="email" placeholder="Correo Electrónico">
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefono" class="form-label font-weight text-white"
+                            style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Teléfono</label>
+                        <input type="tel" class="form-control" id="telefono" placeholder="Teléfono">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Texto" class="form-label font-weight text-white"
+                            style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Mensaje</label>
+                        <textarea class="form-control" id="texto" rows="3"></textarea>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-primary btn-lg">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div id="carousel" class="carousel slide col-12 col-md-6 col-lg-4" style="margin: 20px; order: 2;"
+                data-bs-ride="carousel">
+                <div class="carousel-inner" style="max-height: 500px;">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="../assets/img/motocarrusel1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="../assets/img/motocarrusel2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/img/motocarrusel3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="alert alert-danger d-flex justify-content-start" style="margin: 10%;" role="alert">
+            Aprovecha 10% de descuento apertura hasta fin de año!
+        </div>
+    </main>
+    <footer>
+        <div class="divfooter">
+            <a href="https://api.whatsapp.com/send?phone=5493416488215" target="_blank" class="whatsapplink">
+                <img src="../assets/img/whatsapp.png" alt="WhatsApp" width="80px">
+            </a>
+        </div>
+        <div class="redessociales">
+            <a href="https://www.instagram.com/nicolasfalciglio/" target="_blank" class="">
+                <img src="../assets/img/instagram.png" alt="" width="40px"></a>
+            <a href="https://www.facebook.com/nicolas.falciglio/" target="_blank" class="">
+                <img src="../assets/img/facebook.png" alt="" width="40px"></a>
+            <a href="https://twitter.com/NFalciglio" target="_blank" class="">
+                <img src="../assets/img/twitter.png" alt="" width="40px"></a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

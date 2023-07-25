@@ -1,0 +1,42 @@
+@media (max-width:744px){
+    .sectionclass {
+        display: flex;
+        flex-wrap: wrap;
+        div {
+            margin-left: 0px;
+        }
+    }
+    .titulo img {
+        width: 18.75rem;
+    }
+    .titulo {
+        justify-content: center;
+    }
+    .parrafo1 {
+        border-radius: 0%;
+        margin-top: .625rem;
+        margin-left: 15px;
+        width: 25rem;
+        margin-right: .625rem;
+        border-radius: 0%;
+    }
+    .parrafo2 {
+        margin-left: .625rem;
+        margin-bottom: .625rem;
+        width: 20rem;
+        margin-right: .625rem;
+    }
+    .carousel-inner {
+        margin-left: 1.25rem;
+    }
+    .caruseldiv {
+        margin: 0px;
+    }
+    .parrafoclass {
+        margin-left: 30px;
+    }
+    .carousel-control-next {
+        right: 0px;
+        left: 300px;
+    }
+}

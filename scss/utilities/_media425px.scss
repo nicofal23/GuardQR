@@ -1,0 +1,25 @@
+@media (max-width:425px){
+    header {
+        .titulo{
+            justify-content: start;
+        }
+    }
+    .sectionclass{
+    justify-items: center;
+    .parrafo1 {
+        width: 300px;
+    }
+    .parrafo2 {
+        width: 300px;
+        }
+    }
+    .sectionquiensomos {
+        font-size: 1rem;
+        margin-left: 3.125rem;
+        margin-bottom: 0px;
+        margin-top: .625rem;
+    }
+    .titulo img {
+        width: 15.625rem;
+    }
+}

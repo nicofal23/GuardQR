@@ -1,0 +1,25 @@
+header {
+    background-color: rgba(0, 0, 0, 0.171); 
+    .titulo {
+        display: flex;
+        justify-content: center; 
+        img {
+            margin: 20px; }
+            }
+}
+.navbar-collapse {
+        display: flex;
+        justify-content: center;
+        font-family: titulos; 
+        a {
+            color: white;
+        }
+    }
+.boton {
+    background: white;  
+}    
+.navbar-toggler {
+    background: white;
+}
+
+

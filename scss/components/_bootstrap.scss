@@ -1,0 +1,60 @@
+.divcarusel {
+    width: 90%;
+    div{
+        width: 100%;
+        div{
+            div{
+                img {
+                    width: 100%;
+                    height: 400px;
+                }
+            }
+        }
+    }
+}
+.navbar {
+    div{
+        button {
+            background: white;
+        }
+    }
+}
+.cards {
+    width: 300px;
+    div{
+        width: 14rem; 
+        margin: 10px;
+        img {
+            padding: 10px;
+        }
+    }
+}
+.contactos {
+    width: 100%;
+    .contac {
+        width: 200px;
+        div {
+            order: 1;
+            width: auto;
+            form {
+                width: 200px;
+                div {
+                    label {
+                        font-family: cuerpo;
+                    }
+                }
+            }
+        }
+    }
+}
+.carusel2 {
+    margin: 20px; 
+    order: 2;
+    div {
+        max-height: 500px;
+
+    }
+}
+.promo {
+    margin: 10%;
+}

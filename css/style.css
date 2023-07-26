@@ -213,7 +213,50 @@ header {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 30px; }
+  margin: 30px;
+  font-family: cuerpo; }
+  .titulosh h2 {
+    font-size: 16px; }
+
+.divcarusel {
+  width: 90%; }
+  .divcarusel div {
+    width: 100%; }
+    .divcarusel div div div img {
+      width: 100%;
+      height: 400px; }
+
+.navbar div button {
+  background: white; }
+
+.cards {
+  width: 300px; }
+  .cards div {
+    width: 14rem;
+    margin: 10px; }
+    .cards div img {
+      padding: 10px; }
+
+.contactos {
+  width: 100%; }
+  .contactos .contac {
+    width: 200px; }
+    .contactos .contac div {
+      order: 1;
+      width: auto; }
+      .contactos .contac div form {
+        width: 200px; }
+        .contactos .contac div form div label {
+          font-family: cuerpo; }
+
+.carusel2 {
+  margin: 20px;
+  order: 2; }
+  .carusel2 div {
+    max-height: 500px; }
+
+.promo {
+  margin: 10%; }
 
 @media (max-width: 768px) {
   .sectionclass {

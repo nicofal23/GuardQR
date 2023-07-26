@@ -228,10 +228,10 @@ header {
       grid-column: 400px;
       grid-row: 2;
       width: 400px; }
-  .titulo img {
-    width: 18.75rem; }
   .titulo {
     justify-content: center; }
+    .titulo img {
+      width: 18.75rem; }
   .sectionquiensomos {
     margin-top: .625rem;
     width: 80%;

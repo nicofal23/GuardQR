@@ -17,10 +17,7 @@
     background-color: $colornegroopacido;
     width: 21.875rem;
     height: 21.875rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    @include flex;
     /*parrafo de index*/ 
     p {
         color: $colorblancopuro;

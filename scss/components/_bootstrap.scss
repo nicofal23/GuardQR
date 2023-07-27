@@ -19,16 +19,22 @@
         }
     }
 }
-.cards {
-    width: 300px;
-    div{
-        width: 14rem; 
-        margin: 10px;
-        img {
-            padding: 10px;
+.todacard {
+    width: 98%;
+    .cards {
+        width: 300px;
+        justify-items: center;
+        margin-left: 50px;
+        div{
+            width: 14rem; 
+            margin: 10px;
+            img {
+                padding: 10px;
+            }
         }
     }
 }
+
 .contactos {
     width: 100%;
     .contac {

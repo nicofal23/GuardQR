@@ -23,7 +23,7 @@ En este repositorio, encontrarás las siguientes páginas HTML que conforman nue
 #### 5. Contacto: 
    - Descripción: Si tienes alguna pregunta, comentario o deseas solicitar un calco QR personalizado, puedes comunicarte con nosotros a través de la página de contacto. También proporcionamos nuestras redes sociales y WhatsApp para una comunicación más rápida.
 
-## ### Tecnologías Utilizadas
+## Tecnologías Utilizadas 
 
 #### HTML:
       Se ha utilizado HTML para la estructura y contenido de las páginas.

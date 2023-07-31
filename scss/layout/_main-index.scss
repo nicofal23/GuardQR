@@ -4,9 +4,7 @@
     width: 21.875rem;
     height: 21.875rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    @include flex ;
     padding: 8px;
     /*parrafo de index*/ 
     p {
@@ -14,12 +12,7 @@
         font-family: cuerpo; }
 }
 .parrafo2 {
-    font-size: .9375rem;
-    background-color: $colornegroopacido;
-    width: 21.875rem;
-    height: 21.875rem;
-    @include flex;
-    padding: 8px;
+    @extend .parrafo1;
     /*parrafo de index*/ 
     p {
         color: $colorblancopuro;

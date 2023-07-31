@@ -58,31 +58,23 @@ header {
 .navbar-toggler {
   background: white; }
 
-.parrafo1 {
+.parrafo1, .parrafo2 {
   font-size: .9375rem;
   background-color: rgba(0, 0, 0, 0.418);
   width: 21.875rem;
   height: 21.875rem;
+  display: flex;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 8px;
   /*parrafo de index*/ }
-  .parrafo1 p {
+  .parrafo1 p, .parrafo2 p {
     color: white;
     font-family: cuerpo; }
 
 .parrafo2 {
-  font-size: .9375rem;
-  background-color: rgba(0, 0, 0, 0.418);
-  width: 21.875rem;
-  height: 21.875rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 8px;
   /*parrafo de index*/ }
   .parrafo2 p {
     color: white;
@@ -92,7 +84,7 @@ header {
   display: grid;
   grid-template-columns: 400px 400px;
   justify-content: center; }
-  .sectionclass .parrafo1 {
+  .sectionclass .parrafo1, .sectionclass .parrafo2 {
     grid-column: 1;
     margin: 10px; }
   .sectionclass .parrafo2 {
@@ -272,7 +264,7 @@ header {
     grid-template-columns: 400px;
     grid-template-rows: 2;
     justify-items: center; }
-    .sectionclass .parrafo1 {
+    .sectionclass .parrafo1, .sectionclass .parrafo2 {
       grid-column: 400px;
       grid-row: 1;
       width: 400px; }
@@ -309,7 +301,7 @@ header {
     justify-content: center; }
   .sectionclass {
     justify-items: center; }
-    .sectionclass .parrafo1 {
+    .sectionclass .parrafo1, .sectionclass .parrafo2 {
       width: 300px; }
     .sectionclass .parrafo2 {
       width: 300px; }

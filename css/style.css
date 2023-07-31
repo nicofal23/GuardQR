@@ -19,18 +19,17 @@
   background-repeat: no-repeat; }
 
 footer {
-  width: 100%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  bottom: 0px;
   background-color: rgba(0, 0, 0, 0.418);
   /**icons redes sociales footer**/ }
   footer .divfooter img {
     width: 2.5rem; }
-  footer .redessociales img {
-    width: 2.5rem;
-    margin: .625rem; }
+  footer .redessociales {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    footer .redessociales img {
+      width: 2.5rem;
+      margin: .625rem; }
 
 .whatsapplink {
   position: fixed;
@@ -68,6 +67,7 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 8px;
   /*parrafo de index*/ }
   .parrafo1 p {
     color: white;
@@ -82,6 +82,7 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 8px;
   /*parrafo de index*/ }
   .parrafo2 p {
     color: white;
@@ -118,8 +119,8 @@ header {
     font-family: cuerpo; }
 
 .h2-instruc {
-  display: fex;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.418);
   color: #b0b7f0;
@@ -263,6 +264,9 @@ header {
 .promo {
   margin: 10%; }
 
+.navbar-collapse {
+  display: block; }
+
 @media (max-width: 768px) {
   .sectionclass {
     grid-template-columns: 400px;
@@ -289,7 +293,7 @@ header {
     margin-left: 0px;
     margin-right: 0px; }
   .video iframe {
-    width: 15.625rem;
+    width: 100%;
     height: 15.625rem;
     margin: .625rem; } }
 

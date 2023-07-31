@@ -1,17 +1,17 @@
 footer {
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    bottom: 0px;
     background-color: $colornegroopacido;
     /**icons redes sociales footer**/ 
     .divfooter img {
         width: 2.5rem;
     }
-    .redessociales img {
+    .redessociales {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        img {
         width: 2.5rem;
         margin: .625rem; }
+    }
     }
 .whatsapplink {
     position: fixed;

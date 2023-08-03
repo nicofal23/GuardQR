@@ -212,6 +212,13 @@ header {
   .titulosh h2 {
     font-size: 16px; }
 
+.tarifa {
+  width: 95%;
+  margin-bottom: 10px; }
+  .tarifa div .card {
+    max-width: 14rem;
+    margin: auto; }
+
 .divcarusel {
   width: 90%; }
   .divcarusel div {

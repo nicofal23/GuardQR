@@ -8,3 +8,25 @@
         }
     }
 }
+.infotarifa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $colornegroopacido;
+    h2 {
+        color: $colorblancopuro;
+        font-size: 25px;
+    }
+    h3{
+        color: $colorblancopuro;
+        font-size: 20px;
+    }
+    p {
+        color: $colorblancopuro;
+    }
+    ul {
+        li{
+            color: $colorblancopuro;
+        }
+    }
+}

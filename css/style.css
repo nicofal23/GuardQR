@@ -233,6 +233,22 @@ header {
     max-width: 14rem;
     margin: auto; }
 
+.infotarifa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.418); }
+  .infotarifa h2 {
+    color: white;
+    font-size: 25px; }
+  .infotarifa h3 {
+    color: white;
+    font-size: 20px; }
+  .infotarifa p {
+    color: white; }
+  .infotarifa ul li {
+    color: white; }
+
 .divcarusel {
   width: 90%; }
   .divcarusel div {

@@ -6,13 +6,28 @@
 }
 .emergency-card {
     width: 60%;
-    background-color: azure;
+    background-color: $colornegroopacido;
     border: 1px solid #000000;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
     border: 10px;
     h3 {
-        color: blue;
+        color: $colorblancopuro;
     }
-  }
+    p {
+        color: $colorblancopuro;
+    }
+}
+
+.emergency-card {
+    p{
+        button {
+                background-color: $colorblancopuro;
+                border-radius: 30px;
+                a {
+                    font-size: 16px;
+                }
+            }
+    }
+}

@@ -51,6 +51,9 @@ footer {
   z-index: 9999;
   bottom: 1.25rem; }
 
+.whatsapplin img {
+  width: 40px; }
+
 header {
   background-color: rgba(0, 0, 0, 0.418); }
   header .titulo {
@@ -301,14 +304,22 @@ header {
 
 .emergency-card {
   width: 60%;
-  background-color: azure;
+  background-color: rgba(0, 0, 0, 0.418);
   border: 1px solid #000000;
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
   border: 10px; }
   .emergency-card h3 {
-    color: blue; }
+    color: white; }
+  .emergency-card p {
+    color: white; }
+
+.emergency-card p button {
+  background-color: white;
+  border-radius: 30px; }
+  .emergency-card p button a {
+    font-size: 16px; }
 
 .navbar-collapse {
   display: block; }

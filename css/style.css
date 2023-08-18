@@ -277,6 +277,13 @@ header {
 .promo {
   margin: 10%; }
 
+.datos {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .datos p {
+    color: aliceblue; }
+
 .navbar-collapse {
   display: block; }
 

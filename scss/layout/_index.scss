@@ -29,7 +29,7 @@
         height: 100%;
         width: 100%;
     }
-    h1 {
+    button{
         position: absolute;
         top: 50%;
         left: 50%;
@@ -84,4 +84,9 @@
 .ingreso-button a {
     color: $colornegropuro;
     text-decoration: none;
+}
+.h1index {
+    display: flex;
+    position: absolute;
+    color: $colorblancopuro;
 }

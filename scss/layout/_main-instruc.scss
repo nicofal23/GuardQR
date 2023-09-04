@@ -6,14 +6,17 @@
     color: #b0b7f0;
     margin-top: 1.875rem;
     margin-left: 18.75rem;
-    margin-right: 18.75rem; 
+    margin-right: 18.75rem;
 }
+
 .video {
-        display: flex;
-        justify-content: center;
-        margin-top: 1.875rem;
-        margin-bottom: 1.875rem;
-        iframe {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+
+    iframe {
         width: 25rem;
-        height: 25rem; }
-        }
+        height: 25rem;
+    }
+}

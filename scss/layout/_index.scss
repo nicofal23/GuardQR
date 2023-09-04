@@ -1,5 +1,6 @@
 .inicio {
     background-color: $colornegropuro;
+
     img {
         background-position: center;
         background-repeat: no-repeat;
@@ -10,26 +11,31 @@
         animation: fadeIn 3s ease;
     }
 }
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
         filter: blur(20px);
     }
+
     10% {
         opacity: 1;
     }
 }
+
 .ingreso {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+
     img {
         object-fit: cover;
         height: 100%;
         width: 100%;
     }
-    button{
+
+    button {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -38,6 +44,7 @@
         font-size: 36px;
         z-index: 1;
     }
+
     button {
         background-color: $colornegropuro;
         color: $colorblancopuro;
@@ -60,22 +67,28 @@
     cursor: pointer;
     animation: cambioFondo 1s infinite;
 }
+
 @keyframes cambioFondo {
     0% {
         background-color: #0414f3;
     }
+
     20% {
         background-color: #2804f3;
     }
+
     40% {
         background-color: #0444f3;
     }
+
     60% {
         background-color: #0487f3;
     }
+
     80% {
         background-color: #04aff3;
     }
+
     100% {
         background-color: #04f3d3;
     }
@@ -85,6 +98,7 @@
     color: $colornegropuro;
     text-decoration: none;
 }
+
 .h1index {
     display: flex;
     position: absolute;

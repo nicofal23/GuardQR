@@ -1,24 +1,30 @@
 footer {
     background-color: $colornegroopacido;
-    /**icons redes sociales footer**/ 
+
+    /**icons redes sociales footer**/
     .divfooter img {
         width: 2.5rem;
     }
+
     .redessociales {
         width: 100%;
         display: flex;
         justify-content: center;
+
         img {
-        width: 2.5rem;
-        margin: .625rem; }
+            width: 2.5rem;
+            margin: .625rem;
+        }
     }
-    }
+}
+
 .whatsapplink {
     position: fixed;
     right: 1.25rem;
-    z-index: 9999; 
+    z-index: 9999;
     bottom: 1.25rem;
 }
+
 .whatsapplin {
     img {
         width: 40px;

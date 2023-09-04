@@ -257,6 +257,24 @@ header {
   .infotarifa ul li {
     color: white; }
 
+.botontarifa {
+  background-color: aqua;
+  border-radius: 46%;
+  width: 26%; }
+  .botontarifa a {
+    text-decoration: none;
+    padding: 10px; }
+
+.card-img-top {
+  border: 1px solid white; }
+
+.center-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* Esto centra verticalmente en la pantalla completa */ }
+
 .divcarusel {
   width: 90%; }
   .divcarusel div {
